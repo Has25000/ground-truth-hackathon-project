@@ -1,0 +1,20 @@
+node_modules
+.next
+out
+.vercel
+.env*.local
+.env
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# local tooling
+.claude/
+supabase/.temp
+
+# design mocks / prototype with placeholder data (kept local)
+design_handoff_ground_truth_matchmaker/
+Ground Truth Matchmaker UI.zip
+
+# any raw data exports
+*.csv
